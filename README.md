@@ -13,6 +13,6 @@ Note: Webhooks not implemented yet, it requires
 
 - Create an instance of razorpay at the front-end, we fetch the order_id, amount and currency from the serverless function (back-end).
 
-Note: `Webhooks` not yet implemented, use ngrok to locally instal a secure ssh tunnel, then use that URL to create a `Webhook` in the Razorpay Dashboard.
+Note: `Webhooks` not yet implemented, use ngrok to locally install a secure ssh tunnel, then use that URL to create a `Webhook` in the Razorpay Dashboard.
 
 ##
