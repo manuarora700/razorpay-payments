@@ -75,7 +75,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   max-width: 800px;
   margin-top: 3rem;
 }
@@ -119,4 +119,12 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.makePayment {
+  padding: 8px 16px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
 }
